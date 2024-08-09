@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="enquiry.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>BOOKSTORE</h1>
+        <div class="search"> <div class="sea">
+            <input id="searchInput" placeholder="Search..." onkeyup="searchProducts()">
+            <button type="submit" id="searchButton">
+                <i class="fa fa-search"></i></button>
+        </div>
+    </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="terms.html">Terms</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="a">
+        <div class="container">
+            <form id="signup" class="form">
+                <h2>Enquiry Form</h2>
+                <div class="form-field">
+                    <!-- <label for="name">Name:</label> -->
+                    <input type="text" name="name" id="name" autocomplete="off"
+                    placeholder="Name">
+                    <small></small>
+                </div>
+                <div class="form-field">
+                    <!-- <label for="email">Email:</label> -->
+                    <input type="text" name="email" id="email" autocomplete="off"
+                    placeholder="Email">
+                    <small></small>
+                </div>
+                <div class="form-field">
+                    <!-- <label for="Message">Message:</label> -->
+                    <textarea name="Message" placeholder="write Something...."></textarea>
+                    <small></small>
+                </div>
+                <div class="form-field">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bookstore. All rights reserved.</p>
+        <p>Follow us on
+            <a href="https://www.linkedin.com/in/basil-sajeev-2a03a222a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bedv8PEGbS0OLJKBcvCsd5Q%3D%3D">Linkedln</a>,
+            <a href="#">Twitter</a>,
+            <a href="https://www.instagram.com/basil__sajeev?igsh=MXgxeDI5YjN6em1kNg==">Instagram</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

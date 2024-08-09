@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>BOOKSTORE</h1>
+           <div class="search"> <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search..." onkeyup="searchProducts()">
+                <button type="submit" id="searchButton">
+                    <i class="fa fa-search"></i></button>
+            </div>
+        </div>
+            <div>
+                <ul class=
+                "search-container"id="search-Results">
+                    <!-- List items will be displayed here -->
+                </ul>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="terms.html">Terms</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="a">
+        <h2>BUY AND SELL YOUR BOOKS AT THE BEST PRICE</h2>
+<div class="most">
+    <div id="popular">
+        <h3>#MOST POPULAR</h3>
+    </div> 
+<div class="scrollmenu">
+ 
+    <ul>
+        <li><div class="box" data-name="A Brief History of Time"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.zE6l_EQpwwFGvVXNhRKVagHaJz%26pid%3DApi&f=1&ipt=fcdebaf7d0d628fc7aa00bcf3999453bd74d7f7cfef506fe9c9a80420a2bf7cb&ipo=images" width="150"height="200" alt="book1"></div><p>A Brief History of Time<br>Price:10$
+        <br>
+         <!-- Add icon library -->
+
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span> 
+         </p></li>
+        <li><div class="box" data-name="Rich Dad Poor Dad"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.G8FZD7cL2x5jIKw_SQoFYwHaK7%26pid%3DApi&f=1&ipt=3664f2e6a7de17e32b18d86dfdf6602ed48e53d58d954130cbed831bb2607479&ipo=images"width="150"height="200"alt="book2"></div><p>Rich Dad Poor Dad<br>Price:9$<br><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span> </p></li>
+        <li><div class="box"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.t8LxwIiWUqZmQC8CIq44vAHaLa%26pid%3DApi&f=1&ipt=fd3e77efc1692232668fc10d5d04e8b4c4c05007fedb11870d6e2e9aeb7570f6&ipo=images"width="150"height="200"alt="book3"></div><p>Pyschology of Money<br>Price:12$<br><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span> </p></li>
+        <li><div class="box"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.7IjOYOOrS2ITiX_FbEZTmAHaLs%26pid%3DApi&f=1&ipt=5edcbc76c7e086d2d88e7ffb5bc97ed4fcd28d34e3f0070bb87c99623a2b2dd3&ipo=images"width="150"height="200"alt="book4"></div><p>Meditations<br>Price:14$<br><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span> </p></li>
+        <li><div class="box"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.Up92WDewyOGxuKolzURJUQHaLf%26pid%3DApi&f=1&ipt=8bfe5f438162dcbb39164dce66024f57d5fdeec58ffe3153de9a9e83287dba11&ipo=images"width="150"height="200"alt="book5"></div><p>Richest Man in Babylon<br>Price:6$<br><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span> </p></li>
+        <li><div class="box"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.rirGA5wFjeNXRC9trKrjdwHaLH%26pid%3DApi&f=1&ipt=7b6254ce32482004feecaf46228477ce54f7bdc5da3ab4d3f080896c91f5061f&ipo=images"width="150"height="200"alt="book6"></div><p>Can't Hurt Me,<br>>Price:13$<br><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span> </p></li>
+        <li><div class="box"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.s7ua4l16HX-UkxLqwiQ7YAHaLL%26pid%3DApi&f=1&ipt=4d59c4b4defc5db878c76d3efb7d78733f3e068b09fc36535b3bf9aedbe7c31b&ipo=images"width="150"height="200"alt="book7"></div><p>Atomic Habits<br>Price:15$<br><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span> </p></li>
+        <li><div class="box"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.eSkxCI-RVHPm6YGcDK-oUAHaLd%26pid%3DApi&f=1&ipt=fe31bf3008993a472f759e25b76ffd5fcf0042e47ec06638bfb9d7f6f9681a7e&ipo=images"width="150"height="200"alt="book8"></div><p>Think and GRow Rich<br>Price:8$<br><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span> </p></li>
+    </ul>
+    </div>
+  
+</div>
+</div>
+<div class="genre"><h4>Genres</h4>
+    <ul> <li>
+    <div class="items"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.wjQfXJcrQhx2EZ1ekSeu-wHaLG%26pid%3DApi&f=1&ipt=5622e7dc175dbcc479dfd9be4b8d7affe363d5a50f4b6d81738afa65ece4949a&ipo=images" width="150"height="200" alt="genre 1"><div class="text-block"><a class="base" href="self.html">SELF HELP</a></div></div></li>
+    <li><div class="items"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.d8UWALRYxASrzoE6tOF2oAHaJQ%26pid%3DApi&f=1&ipt=dfdb82e7c69094e407680227f4cf796978356ef00367af25aa85db907935fad2&ipo=images"width="150"height="200" alt="genre 2"><div class="text-block"><a class="base" href="self.html">FINANCE</a></div></div></li>
+    <li><div class="items"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.explicit.bing.net%2Fth%3Fid%3DOIP.zzeW4Az_lpmCspFodhsvCQHaLH%26pid%3DApi&f=1&ipt=75147595775d1fbdde79e8976e2da2c70b20a18750f958b760cac17779f2a0f3&ipo=images"width="150"height="200"  alt="genre 3"><div class="text-block"><a class="base" href="self.html">BIOGRAPHY</a></div></div></li>
+    <li><div class="items"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.A7kZbGPlVcJQNeuT5p3RpQHaLH%26pid%3DApi&f=1&ipt=dd1e48897a090240fb2db92d035b398f596cd034884404fbaccbcc6ddcafc6db&ipo=images" width="150"height="200" alt="genre 4"><div class="text-block"><a class="base" href="self.html">FICTION</a></div></div></li>
+    <li><div class="items"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.coCC4Dkmsh2jzF17hva_nQHaLJ%26pid%3DApi&f=1&ipt=65919bb8a35cecffeef79b98006474d485fea00c1f42ee25a8a41ad08d2d3a8a&ipo=images"width="150"height="200"  alt="genre 5"><div class="text-block"><a class="base" href="self.html">NON FICTION</a></div></div></li>
+    <li> <div class="items"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.GxxPRug96W8VjVodmoi_OAHaKj%26pid%3DApi&f=1&ipt=8060101d13fe5ebeebd8b5fc12c3d7561b2d3e3d6b4591bd9611f3aa10eb7108&ipo=images" width="150"height="200"  alt="genre 6"><div class="text-block"><a class="base" href="self.html">DRAMA</a></div></div></li>
+    <li><div class="items"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.explicit.bing.net%2Fth%3Fid%3DOIP.MvZoSkkOMBNRaUNis8j1qAHaMd%26pid%3DApi&f=1&ipt=d05231e64d3bf8108d0a16020f12304b8d9bf6835f1e62dbaef09deecc564b63&ipo=images"width="150"height="200"alt="genre 14"><div class="text-block"><a class="base" href="self.html">NOVELS</a></div></div></li>
+    <li><div class="items"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.6u28DUsK6KzsHR_2Od_JOgHaLG%26pid%3DApi&f=1&ipt=dd17435a7df2f8a792ceb145b2a8b44217f57f0d01324f4afbad5eeef4d5119b&ipo=images" width="150"height="200" alt="genre 7"><div class="text-block"><a class="base" href="self.html">POEMS</a></div></div></li>
+    <li><div class="items"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.s8kRQmG3cVb6y1ty0Z1UBQHaLH%26pid%3DApi&f=1&ipt=bf373ab4727fe6040586441fc61fed0ed42f0ba79414fc2e3903838a29839b80&ipo=images" width="150"height="200" alt="genre 8"><div class="text-block"><a class="base" href="self.html">ROMANCE</a></div></div></li>
+    <li><div class="items"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.4NGljU_SjnCSKrOAfwE3NwHaLY%26pid%3DApi&f=1&ipt=2920bd0962ff83e08c3227b610e8f703597e310ea6d471b2a7d2246794bbf0b1&ipo=images" width="150"height="200" alt="genre 9"><div class="text-block"><a class="base" href="self.html">FAIRY TALES</a></div></div></li>
+    <li><div class="items"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Lhy0P8vBKt7l6mlBNLlGBAHaLc%26pid%3DApi&f=1&ipt=fa13d5b4041b41c9f35c5fed03d83ba6903fb3610f7e63a0f4b173c2f5b48139&ipo=images" width="150"height="200" alt="genre 10"><div class="text-block"><a class="base" href="self.html">HISTORY</a></div></div></li>
+    <li><div class="items"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.explicit.bing.net%2Fth%3Fid%3DOIP.GhWABCliz91fDH3wl6KIAAAAAA%26pid%3DApi&f=1&ipt=360ce32ac4786d0080836a65906dce5f494d43b02c683f1a4d465272b56231af&ipo=images" width="150"height="200" alt="genre 11"><div class="text-block"><a class="base" href="self.html">MYSTERY</a></div></div></li>
+    <li><div class="items"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.0kOoTo6GmQQ0swjDTlCATQHaNC%26pid%3DApi&f=1&ipt=1930aa94ace913291560ed8816570527ceb89a1a9086d356087b5496aa5db4ff&ipo=images" width="150"height="200" alt="genre 12"><div class="text-block"><a class="base" href="self.html">THRILLER</a></div></div></li>
+    <li><div class="items"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.axplZB51EqNMJpQeHNiACAHaLT%26pid%3DApi&f=1&ipt=6ffff227b9b2630f17ddbfef9a94a8067cf4b0a360248b510f1e0eb638dcb9b7&ipo=images" width="150"height="200" alt="genre 13"><div class="text-block"><a class="base" href="self.html">FANTASY</a></div></div></li>
+</ul>
+<div class="adv">
+       <img id="advert" src="https://dispatch.barnesandnoble.com/content/dam/ccr/homepage/daily/2024/07/30/30048_Quote_A1_BookClubAugust_07_30_24.jpg" alt="banner" width="800" height=auto >            
+</div>
+</div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bookstore. All rights reserved.</p>
+        <p>Follow us on
+            <a href="https://www.linkedin.com/in/basil-sajeev-2a03a222a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bedv8PEGbS0OLJKBcvCsd5Q%3D%3D">Linkedln</a>,
+            <a href="#">Twitter</a>,
+            <a href="https://www.instagram.com/basil__sajeev?igsh=MXgxeDI5YjN6em1kNg==">Instagram</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
